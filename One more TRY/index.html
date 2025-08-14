@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One More Try - Retro Game Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Animated background elements -->
+        <div class="stars-layer"></div>
+        <div class="nebula-layer"></div>
+        
+        <!-- Planets -->
+        <div class="planet planet-1"></div>
+        <div class="planet planet-2"></div>
+        
+        <!-- Twinkling stars -->
+        <div class="twinkling-stars">
+            <div class="star" style="top: 20%; left: 10%;"></div>
+            <div class="star" style="top: 30%; left: 80%;"></div>
+            <div class="star" style="top: 60%; left: 15%;"></div>
+            <div class="star" style="top: 70%; left: 85%;"></div>
+            <div class="star" style="top: 40%; left: 60%;"></div>
+            <div class="star" style="top: 80%; left: 40%;"></div>
+            <div class="star" style="top: 15%; left: 70%;"></div>
+            <div class="star" style="top: 90%; left: 20%;"></div>
+        </div>
+        
+        <!-- Main content -->
+        <div class="menu-content">
+            <h1 class="game-title">
+                <span class="title-line">ONE MORE</span>
+                <span class="title-line">TRY...</span>
+            </h1>
+            
+            <nav class="game-menu">
+                <button class="menu-btn" data-action="play">PLAY</button>
+                <button class="menu-btn" data-action="options">OPTIONS</button>
+                <button class="menu-btn" data-action="menu">MENU</button>
+            </nav>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
